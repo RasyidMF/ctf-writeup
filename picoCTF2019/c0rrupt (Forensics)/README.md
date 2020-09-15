@@ -38,7 +38,7 @@ Lets try to change the header byte, and try to check the image file using <b>png
 mystery  CRC error in chunk pHYs (computed 38d82c82, expected 495224f0)
 ERROR: mystery
 ```
-<b>Note: A valid PNG image must contain an IHDR chunk, one or more IDAT chunks, and an IEND chunk.<br>
+<b>Note: A valid PNG image must contain an IHDR chunk, one or more IDAT chunks, and an IEND chunk.</b><br>
 I think i missing smthing, well yeah we can see right here there is no <b>IHDR Image header</b>. As i know there is 4 Character called <b>C"DR</b> well we need to change it into <b>IHDR</b>
 ```
 43 22 44 52 = C"DR
