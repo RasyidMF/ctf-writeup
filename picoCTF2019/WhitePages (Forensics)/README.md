@@ -31,7 +31,7 @@ You can see right here, there is alot bytes we can parse
 ```
 e2 80 83 20
 ```
-This is like binary alogrithm, what i mean is <b>0</b> and <b>1. And i think there is only 2 bytes we can parse
+This is like binary alogrithm, what i mean is <b>0</b> and <b>1</b> . And i think there is only 2 bytes we can parse
 ```
 e28083 and 20
 ```
