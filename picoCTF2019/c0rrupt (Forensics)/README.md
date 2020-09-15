@@ -115,6 +115,6 @@ File: mystery (202940 bytes)
   chunk IDAT at offset 0x30008, length 6304
   chunk IEND at offset 0x318b4, length 0
 No errors detected in mystery (9 chunks, 96.3% compression).
-``
+```
 No errors ? Well that nice guess i think. <b>Well in my mind, i never see that big chunk size, well i just try it and boom</b>, Open the image and see the flag!<br>
 Flag : <b>picoCTF{c0rrupt10n_1847995}</b>
