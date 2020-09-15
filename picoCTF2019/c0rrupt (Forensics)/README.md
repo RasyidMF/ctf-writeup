@@ -68,12 +68,12 @@ ERRORS DETECTED in mystery
 We see this message <b>CRC error in chunk pHYs (computed 38d82c82, expected 495224f0)</b>, our CRC <b>pHYs</b> was wrong calculated. So i change the <b>expected</b> into <b>computed</b> in
 ```
 before:
-00000040: 0009 7048 5973 aa00 1625 0000 1625 01<b>49</b>
-00000050: <b>5224 f0</b>aa aaff a5ab 4445 5478 5eec bd3f
+00000040: 0009 7048 5973 aa00 1625 0000 1625 0149
+00000050: 5224 f0aa aaff a5ab 4445 5478 5eec bd3f
 
 after:
-00000040: 0009 7048 5973 aa00 1625 0000 1625 01<b>38</b>
-00000050: <b>d82c 82</b>aa aaff a5ab 4445 5478 5eec bd3f
+00000040: 0009 7048 5973 aa00 1625 0000 1625 0138
+00000050: d82c 82aa aaff a5ab 4445 5478 5eec bd3f
 ```
 Try to check the image file again
 ```
