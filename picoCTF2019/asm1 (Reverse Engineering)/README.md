@@ -33,19 +33,17 @@ Lets take 4 instruction first
 <+3>:   cmp    DWORD PTR [ebp+0x8],0x45d
 <+10>:  jg     0x512 <asm1+37>
 ```
-<li><b>ebp</b> was push into registers.</li>
-<li>Next create new variable <b>esp</b> and set value of <b>ebp</b></li>
-<li>
-    Check <b>ebp+0x8</b> is <b>jg ( <= )</b> than 0x45d,
-    if <b>TRUE</b> the instruction will continue, <b>ELSE</b> will jumping into <b><asm1+37></b>
-</li>
+<b>ebp</b> was push into registers.<br>
+Next create new variable <b>esp</b> and set value of <b>ebp</b><br>
+Check <b>ebp+0x8</b> is <b>jg ( <= )</b> than <b>0x45d</b>,
+if <b>TRUE</b> the instruction will continue, <b>ELSE</b> will jumping into <b><asm1+37></b><br>
 <b>Note: </b> value of <b>ebp</b> = <b>0x4f3</b>. So i the result of this instruction is <b>FALSE</b><hr>
 Next, lets take 2 instruction
 ```asm
 <+37>:  cmp    DWORD PTR [ebp+0x8],0x7cd
 <+44>:  jne    0x523 <asm1+54>
 ```
-<li>Check <b>ebp+0x8</b> is <b>jne ( == )</b> is equal with 0x7cd</li>
+Check <b>ebp+0x8</b> is <b>jne ( == )</b> is equal with 0x7cd<br>
 <b>Note: </b> since value <b>ebp+0x8</b> is <b>0x4f3</b>  The answer is <b>FALSE</b><hr>
 Next, i know the instruction was jump into <b><asm1+54></b>
 ```asm
@@ -54,7 +52,7 @@ Next, i know the instruction was jump into <b><asm1+54></b>
 <+60>:  pop    ebp
 <+61>:  ret
 ```
-<li><b><+54></b> and <b><+57></b> is adding / incerase value <b>ebp</b> with <b>0x17</b>.</li>
+<b><+54></b> and <b><+57></b> is adding / incerase value <b>ebp</b> with <b>0x17</b>.
 ```
 0x4f3 + 0x17 = 0x50a
 ```
