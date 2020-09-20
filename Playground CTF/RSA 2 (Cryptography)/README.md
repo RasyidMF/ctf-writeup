@@ -1,0 +1,24 @@
+# RSA 2 (50 Points)
+It is too easy right if I give you the d value? I will not give you the d value now. Decrypt c and you will get the flag.<br>
+http://factordb.com/
+# Solved
+Selesai menggunakan python script
+```python
+from Crypto.Util.number import *
+
+c = 16242234474473258887540124223610278921755418492811947834490614251810096797056381511309796570464863939137936493103736370
+e = 65537
+n = 833810193564967701912362955539789451139872863794534923259743419423089229206473091408403560311191545764221310666338878019
+
+p = 863653476616376575308866344984576466644942572246900013156919
+q = 965445304326998194798282228842484732438457170595999523426901
+
+phi = (p - 1) * (q - 1)
+
+d = inverse(e, phi)
+
+r = pow(c, d, n)
+
+print(bytearray.fromhex(str(hex(r))[2:]).decode())
+```
+Flag : <b>PlaygroundCTF{r5a_l3vel_tW0}</b>
