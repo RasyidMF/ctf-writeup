@@ -5,7 +5,7 @@ format flag: hacktoday{flag}
 <br>
 author: monhack - IPB
 # Solved
-Teks yang berisi dalam file acid.txt adalah sebuah Cryptography <b>DNA Code</b>https://raw.githubusercontent.com/JohnHammond/ctf-katana/master/img/dna_codes.png<br>
+Teks yang berisi dalam file acid.txt adalah sebuah Cryptography <b>DNA Code</b> https://raw.githubusercontent.com/JohnHammond/ctf-katana/master/img/dna_codes.png<br>
 ```python
 mapping = {
     'AAA':'a',
