@@ -1,0 +1,26 @@
+Thanks for working on my Riyadh Reversing Challenge, I hope you enjoy it.
+
+If you are new to Reversing, you may want to solve my Reyjkavik challenge first on CTFlearn.
+It is a little easier than this challenge.
+
+I also have a Reversing challenge called Rainbow; it is probably not for beginners.
+
+Included in the challenge are the encrypted source files used to create the challenge.
+The sources.zip.enc file is encrypted with the Challenge flag.
+
+Solve the challenge, get the flag, decrypt the sources.
+
+Decrypt with:
+openssl enc -d -aes-256-cbc -pbkdf2 -k flag -in sources.zip.enc -out sources.zip
+
+If you are not familiar with openssl encryption options, openssl enc -help is helpful :-)
+
+Please don't share the flag or the sources used to build the challenge with anyone.
+Please don't use the sources to create your own challenge for any CTF web sites or competitions.
+I put a lot of time and thought and energy into creating these challenges and I don't want them shared.
+
+Thanks!
+
+@kcbowhunter on Twitter and Discord
+
+
