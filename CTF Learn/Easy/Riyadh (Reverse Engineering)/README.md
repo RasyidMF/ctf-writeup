@@ -70,14 +70,7 @@ Msg4 = You entered False Flag (CTFlearn{Reversing_Is_Easy})
 Msg5 = Success Flag
 Msg6 = Wrong Flag
 ```
-```
-0x000000000800132a <+554>:   lea    rdi,[rip+0x3e8f]        # 0x80051c0 <buffer>
-0x0000000008001331 <+561>:   mov    r12d,0x4
-0x0000000008001337 <+567>:   call   0x8001d40 <_Z4Msg6Pc>
-0x000000000800133c <+572>:   lea    rdi,[rip+0x3e7d]        # 0x80051c0 <buffer>
-0x0000000008001343 <+579>:   call   0x80010f0 <puts@plt>
-```
-Kita bisa lihat bahwa <b>buffer</b> adalah dimana flag nya berada. <b>0x00000000080012df</b>, akan tetapi kita harus melewati beberapa step yaitu
+Untuk menuju ke instruksi <b>Msg5</b>, kita harus melewati beberapa step yaitu
 ```
    0x8001169 <main+105>:        call   0x80010c0 <strlen@plt>
 => 0x800116e <main+110>:        cmp    rax,0x1e
