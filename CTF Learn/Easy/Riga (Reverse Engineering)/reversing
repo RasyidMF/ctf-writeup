@@ -1,0 +1,23 @@
+
+If you are new to Reversing LiveOverflow on YouTube has some great videos, check out his
+Reversing Tutorial:
+https://www.youtube.com/watch?v=VroEiMOJPm8
+
+If you are really new to CTF's and Ethical Hacking but want to learn here is a good place to start:
+https://www.youtube.com/watch?v=tLdvEOam3sk
+
+And here is a free book on Reverse Engineering / Assembler:
+https://beginners.re/dl.html
+
+If you are new to assembler, asmtutor.com is a great place to start.
+It is for 32 bit assembler, but the concepts still apply to 64 bit and you will learn a lot
+if you are new to assembler.  Note that the system calls are different between 32 and 64
+bit assembler.
+
+If you are not sure about hexadecimal notation such as 0xbaadf00d then this is a
+great video series for learning the basics:
+https://www.youtube.com/watch?v=tLdvEOam3sk
+
+Some of these Reversing Challenges can be solved using the Ghidra disassembler alone.
+https://ghidra-sre.org/
+If you are serious about Reversing Ghidra should be one of your tools.
