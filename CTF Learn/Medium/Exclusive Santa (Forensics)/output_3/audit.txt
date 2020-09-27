@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Sep 27 10:39:28 2020
+Invocation: foremost 3.png 
+Output directory: /home/rasyidmf/ctf-writeup/CTF Learn/Medium/Exclusive Santa (Forensics)/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: 3.png
+Start: Sun Sep 27 10:39:28 2020
+Length: 1 MB (1221575 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	      51 KB 	          0 	  (1200 x 875)
+1:	00000102.png 	       1 MB 	      52406 	  (1280 x 720)
+Finish: Sun Sep 27 10:39:28 2020
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sun Sep 27 10:39:28 2020
