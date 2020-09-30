@@ -1,0 +1,19 @@
+DiskoCTF{
+Expenses
+Lodging,$6.11
+Motor Vehicle,$4.92
+Insurance,$6914.04
+Depreciation,$704.40
+Property Tax,$1.07
+Heating,$8.46
+Software Licenses,$6.67
+Security Alarm,$435.02
+Office Supplies,$43.34
+Cooling,$6.53
+Entertainment,$6.29
+Mortgage Interest,$52.69
+Bank Fees,$6744.99
+Gas,$9.72
+Electricity,$2.13
+Phone,$99
+}
