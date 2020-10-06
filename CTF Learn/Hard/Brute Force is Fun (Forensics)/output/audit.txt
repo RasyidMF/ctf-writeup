@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Oct  3 19:33:31 2020
+Invocation: foremost legotroopers.jpg 
+Output directory: /home/rasyidmf/ctf-writeup/CTF Learn/Hard/Brute Force is Fun (Forensics)/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: legotroopers.jpg
+Start: Sat Oct  3 19:33:31 2020
+Length: 1 MB (2045340 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	       6 KB 	          0 	 
+1:	00000012.zip 	       1 MB 	       6438 	 
+Finish: Sat Oct  3 19:33:32 2020
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Oct  3 19:33:32 2020
