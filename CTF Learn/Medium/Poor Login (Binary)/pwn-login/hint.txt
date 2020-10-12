@@ -1,0 +1,58 @@
+rasyidmf@RASYID-PC:~/ctf-writeup/CTF Learn/Medium/Poor Login (Binary)/pwn-login$ nc thekidofarcrania.com 13226
+*** WINBLOWS LOGIN *********
+1. Login into user.
+2. Sign out.
+3. Print flag.
+4. Lock user.
+5. Restore user.
+> 1
+Username: AAAA AAAA
+*** WINBLOWS LOGIN *********
+1. Login into user.
+2. Sign out.
+3. Print flag.
+4. Lock user.
+5. Restore user.
+> 4
+User has been locked now.
+*** WINBLOWS LOGIN *********
+1. Login into user.
+2. Sign out.
+3. Print flag.
+4. Lock user.
+5. Restore user.
+> 3
+You are not admin. Would you like to create a new flag instead?
+IDK
+Here's your flag: IDK
+*** WINBLOWS LOGIN *********
+1. Login into user.
+2. Sign out.
+3. Print flag.
+4. Lock user.
+5. Restore user.
+> 1
+Username: PPPPPPPPPPPPPPPPPPPPPPPP
+*** WINBLOWS LOGIN *********
+1. Login into user.
+2. Sign out.
+3. Print flag.
+4. Lock user.
+5. Restore user.
+> 2
+You have been successfully logged out.
+*** WINBLOWS LOGIN *********
+1. Login into user.
+2. Sign out.
+3. Print flag.
+4. Lock user.
+5. Restore user.
+> 5
+Welcome back, AAAA AAAA!
+*** WINBLOWS LOGIN *********
+1. Login into user.
+2. Sign out.
+3. Print flag.
+4. Lock user.
+5. Restore user.
+>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
